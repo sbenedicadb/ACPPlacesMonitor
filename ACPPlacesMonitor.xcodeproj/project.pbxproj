@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049849F0D40F40BCAD2E4D03 /* libPods-ACPPlacesMonitor-iOS-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ACC2A8022538005BF19173 /* libPods-ACPPlacesMonitor-iOS-unit-tests.a */; };
-		154F7EF41F8E892A2B2DF51A /* libPods-ACPPlacesMonitor_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0A78BDE10C42B75E2C830 /* libPods-ACPPlacesMonitor_iOS.a */; };
 		2429BC1E21C1CAD3003DB1A5 /* ACPPlacesMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFA90061FFD9C6E0069ACAC /* ACPPlacesMonitor.m */; };
 		243E663321FF66A400482882 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CF4EF1FCF7C060071CD3D /* libc++.tbd */; };
 		2488B3C921C4558F00E160DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E0DE361FC36BA000E96578 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -23,6 +21,8 @@
 		24D8BEAD21CC12D000D168EC /* ACPPlacesMonitorListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D8BEAC21CC12D000D168EC /* ACPPlacesMonitorListenerTests.m */; };
 		24D8BEC621DEBD4000D168EC /* libACPPlacesMonitor_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2429BC1421C1CA38003DB1A5 /* libACPPlacesMonitor_iOS.a */; };
 		24D8BECD21DED35F00D168EC /* ACPPlacesMonitorLocationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D8BECC21DED35F00D168EC /* ACPPlacesMonitorLocationDelegate.m */; };
+		54B95EE25CAD468EDD241296 /* Pods_ACPPlacesMonitor_iOS_unit_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2494A1D37FE87A3984BAD1 /* Pods_ACPPlacesMonitor_iOS_unit_tests.framework */; };
+		8E04ACAC9F655847DDFBA744 /* Pods_ACPPlacesMonitor_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D075954A8E1A85D95937886C /* Pods_ACPPlacesMonitor_iOS.framework */; };
 		C8EC56ED203BF1D100656224 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EC56E9203BF1D100656224 /* libOCMock.a */; };
 		D4B095DD209BA9C40065678F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E0DE361FC36BA000E96578 /* CoreLocation.framework */; };
 		F04CF4EE1FCF7BF90071CD3D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E0DD401FC336F700E96578 /* libsqlite3.0.tbd */; };
@@ -115,7 +115,6 @@
 		7E8713A537B2A1B91BAB19E7 /* Pods-ACPPlacesMonitor_iOS.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACPPlacesMonitor_iOS.test.xcconfig"; path = "Target Support Files/Pods-ACPPlacesMonitor_iOS/Pods-ACPPlacesMonitor_iOS.test.xcconfig"; sourceTree = "<group>"; };
 		8664D83214EC439DD98F821C /* Pods-ACPPlacesMonitor-iOS-unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACPPlacesMonitor-iOS-unit-tests.debug.xcconfig"; path = "Target Support Files/Pods-ACPPlacesMonitor-iOS-unit-tests/Pods-ACPPlacesMonitor-iOS-unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A015A74A6CD2F06CAFFD5D10 /* Pods-ACPPlacesMonitor-iOS-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACPPlacesMonitor-iOS-unit-tests.release.xcconfig"; path = "Target Support Files/Pods-ACPPlacesMonitor-iOS-unit-tests/Pods-ACPPlacesMonitor-iOS-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
-		A2A0A78BDE10C42B75E2C830 /* libPods-ACPPlacesMonitor_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACPPlacesMonitor_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A2FD710463E9FBC3CFFE66 /* Pods-ACPPlacesMonitor_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACPPlacesMonitor_iOS.debug.xcconfig"; path = "Target Support Files/Pods-ACPPlacesMonitor_iOS/Pods-ACPPlacesMonitor_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BC42E22BD248E8843B6952DC /* Pods-ACPPlacesMonitor_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACPPlacesMonitor_iOS.release.xcconfig"; path = "Target Support Files/Pods-ACPPlacesMonitor_iOS/Pods-ACPPlacesMonitor_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C810D27A1F6A4001003D7CC6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -126,7 +125,8 @@
 		C8EC56E9203BF1D100656224 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = ../../code/unitTests/3rdparty/OCMock/libOCMock.a; sourceTree = "<group>"; };
 		C8EC5701203DF7E100656224 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C91FDCB2C4DAC9181A7999D6 /* Pods-ACPPlacesMonitor-iOS-unit-tests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACPPlacesMonitor-iOS-unit-tests.test.xcconfig"; path = "Target Support Files/Pods-ACPPlacesMonitor-iOS-unit-tests/Pods-ACPPlacesMonitor-iOS-unit-tests.test.xcconfig"; sourceTree = "<group>"; };
-		D3ACC2A8022538005BF19173 /* libPods-ACPPlacesMonitor-iOS-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACPPlacesMonitor-iOS-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2494A1D37FE87A3984BAD1 /* Pods_ACPPlacesMonitor_iOS_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACPPlacesMonitor_iOS_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D075954A8E1A85D95937886C /* Pods_ACPPlacesMonitor_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACPPlacesMonitor_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D422AA72202BF339005C34E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D484BB712050E686006CA927 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D484BB732050E6AF006CA927 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -166,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2488B3C921C4558F00E160DD /* CoreLocation.framework in Frameworks */,
-				154F7EF41F8E892A2B2DF51A /* libPods-ACPPlacesMonitor_iOS.a in Frameworks */,
+				8E04ACAC9F655847DDFBA744 /* Pods_ACPPlacesMonitor_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +182,7 @@
 				F0B902531FD0663F00CA6EB2 /* SystemConfiguration.framework in Frameworks */,
 				C8EC56ED203BF1D100656224 /* libOCMock.a in Frameworks */,
 				F04CF4EE1FCF7BF90071CD3D /* libsqlite3.0.tbd in Frameworks */,
-				049849F0D40F40BCAD2E4D03 /* libPods-ACPPlacesMonitor-iOS-unit-tests.a in Frameworks */,
+				54B95EE25CAD468EDD241296 /* Pods_ACPPlacesMonitor_iOS_unit_tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +334,8 @@
 				C832993A1F674238008E2D50 /* libgmock.a */,
 				C832993B1F674238008E2D50 /* libgtest_main.a */,
 				C832993C1F674238008E2D50 /* libgtest.a */,
-				D3ACC2A8022538005BF19173 /* libPods-ACPPlacesMonitor-iOS-unit-tests.a */,
-				A2A0A78BDE10C42B75E2C830 /* libPods-ACPPlacesMonitor_iOS.a */,
+				CE2494A1D37FE87A3984BAD1 /* Pods_ACPPlacesMonitor_iOS_unit_tests.framework */,
+				D075954A8E1A85D95937886C /* Pods_ACPPlacesMonitor_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -403,6 +403,7 @@
 				F0D206C71FCF78F10013D96D /* Sources */,
 				F0D206C81FCF78F10013D96D /* Frameworks */,
 				F0D206C91FCF78F10013D96D /* Resources */,
+				134906D450265483FABD077E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -466,6 +467,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		134906D450265483FABD077E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACPPlacesMonitor-iOS-unit-tests/Pods-ACPPlacesMonitor-iOS-unit-tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACPCore/ACPCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPCore/AEPCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPIdentity/AEPIdentity.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPLifecycle/AEPLifecycle.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPPlaces/AEPPlaces.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPRulesEngine/AEPRulesEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPServices/AEPServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AEPSignal/AEPSignal.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACPCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPIdentity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPLifecycle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPPlaces.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPRulesEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEPSignal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACPPlacesMonitor-iOS-unit-tests/Pods-ACPPlacesMonitor-iOS-unit-tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6B6AD6B688996F95762AEB45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,6 +581,7 @@
 			baseConfigurationReference = B9A2FD710463E9FBC3CFFE66 /* Pods-ACPPlacesMonitor_iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -553,6 +589,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
@@ -579,6 +616,7 @@
 			baseConfigurationReference = BC42E22BD248E8843B6952DC /* Pods-ACPPlacesMonitor_iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -586,6 +624,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				HEADER_SEARCH_PATHS = (
 					"../../platform-places/code/src/**",
@@ -611,6 +650,7 @@
 			baseConfigurationReference = 7E8713A537B2A1B91BAB19E7 /* Pods-ACPPlacesMonitor_iOS.test.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -618,6 +658,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (

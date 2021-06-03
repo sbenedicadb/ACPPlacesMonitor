@@ -4,12 +4,16 @@ workspace 'ACPPlacesMonitor'
 project 'ACPPlacesMonitor.xcodeproj'
 
 target 'ACPPlacesMonitor_iOS' do
-  pod 'AEPCore'
-  pod 'AEPPlaces', :git => 'git@github.com:adobe/aepsdk-places-ios.git', :branch => 'main'
+  use_frameworks!
+  
+  pod 'ACPCore', :git => 'https://github.com/adobe/aep-sdk-compatibility-ios.git', :branch => 'main'
+  pod 'AEPPlaces', :path => '/Users/stevebenedick/code/git/forks/adobe/ios/aepsdk-places-ios/'
 end
 
 target 'ACPPlacesMonitor-iOS-unit-tests' do
-  pod 'AEPCore'
-  pod 'AEPPlaces', :git => 'git@github.com:adobe/aepsdk-places-ios.git', :branch => 'main'
+  use_frameworks!
+  
+  pod 'ACPCore', :git => 'https://github.com/adobe/aep-sdk-compatibility-ios.git', :branch => 'main'
+  pod 'AEPPlaces', :path => '/Users/stevebenedick/code/git/forks/adobe/ios/aepsdk-places-ios/'
   pod 'OCMock', '3.4.3'
 end
